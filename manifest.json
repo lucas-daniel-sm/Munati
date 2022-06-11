@@ -1,0 +1,31 @@
+{
+    "name": "Munati",
+    "description": "Music Name on Title of YouTube Music",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "js": [
+                "munati.js"
+            ],
+            "matches": [
+                "https://music.youtube.com/*"
+            ]
+        }
+    ],
+    "action": {
+        "default_title": "Munati",
+        "default_icon": {
+            "16": "/images/manatee_16.png",
+            "32": "/images/manatee_32.png",
+            "48": "/images/manatee_48.png",
+            "128": "/images/manatee_128.png"
+        }
+    },
+    "icons": {
+        "16": "/images/manatee_16.png",
+        "32": "/images/manatee_32.png",
+        "48": "/images/manatee_48.png",
+        "128": "/images/manatee_128.png"
+    }
+}
